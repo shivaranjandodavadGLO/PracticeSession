@@ -16,6 +16,7 @@ import java.time.LocalDate;
 @Entity
 
 public class Order {
+    //this is an order
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     String orderId;
